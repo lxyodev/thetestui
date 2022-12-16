@@ -108,7 +108,7 @@ function library:Window(options)
     local Main_Logo = Instance.new("ImageButton")
     Main_Logo.Name = "Main_Logo"
     Main_Logo.Parent = _1LeftSide
-    Main_Logo.BackgroundTransparency = 0
+    Main_Logo.BackgroundTransparency = 1.000
     Main_Logo.Position = UDim2.new(0.242857158, 0, 0.0225000009, 0)
     Main_Logo.Size = UDim2.new(0, 35, 0, 35)
     Main_Logo.Image = "http://www.roblox.com/asset/?id=" .. tostring(Logo)
